@@ -1,3 +1,40 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Mi Parque de Diversiones</string>
+    <string name="app_slogan">¡Diversión sin límites!</string>
+    <string name="app_logo">Logo de la aplicación</string>
+    <string name="categories_title">Categorías de Juegos</string>
+    <string name="categories_header">Explora nuestras categorías de juegos</string>
+    <string name="info_title">Información de la App</string>
+    <string name="copyright">© 2023 Mi Parque de Diversiones</string>
+    <string name="categories_icon">Icono de categorías</string>
+    <string name="info_icon">Icono de información</string>
+    <string name="category_image">Imagen de categoría</string>
+    <string name="game_thumbnail">Miniatura del juego</string>
+    <string name="game_image">Imagen del juego</string>
+    <string name="arcade">Arcade</string>
+    <string name="classic">Clásico</string>
+    <string name="single_player">Un jugador</string>
+    <string name="statistics">Estadísticas</string>
+    <string name="stats_description">Ver las estadísticas de los últimos 10 jugadores</string>
+    <string name="view_stats">Ver Estadísticas</string>
+    <string name="play_game">¡JUGAR AHORA!</string>
+    <string name="stats_icon">Icono de estadísticas</string>
+    <string name="playing_game">Jugando</string>
+    <string name="game_simulation">Simulación del juego</string>
+    <string name="player_name">Nombre del jugador</string>
+    <string name="complexity">Complejidad</string>
+    <string name="novice">Novato</string>
+    <string name="amateur">Amateur</string>
+    <string name="professional">Profesional</string>
+    <string name="level">Nivel</string>
+    <string name="level_1">Nivel 1</string>
+    <string name="score">Puntaje</string>
+    <string name="enter_score">Ingrese el puntaje</string>
+    <string name="finish_game">FINALIZAR PARTIDA</string>
+    <!-- Nuevas cadenas para la lista de juegos -->
+    <string name="games_available">Juegos disponibles</string>
+    <!-- Nuevas cadenas para estadísticas -->
+    <string name="stats_last_players">Estadísticas de los últimos 10 jugadores</string>
+    <string name="player">Jugador</string>
+    <string name="no_statistics_yet">No hay estadísticas disponibles</string>
 </resources>

@@ -1,0 +1,110 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Fondo redondeado -->
+    <path
+        android:fillColor="#121212"
+        android:pathData="M30,0L170,0A30,30 0,0 1,200 30L200,170A30,30 0,0 1,170 200L30,200A30,30 0,0 1,0 170L0,30A30,30 0,0 1,30 0z" />
+
+    <!-- Cabeza de Android (púrpura) -->
+    <path
+        android:fillColor="#7B4EFB"
+        android:pathData="M100,60C76,60 56,80 56,104L56,112L144,112L144,104C144,80 124,60 100,60Z" />
+
+    <!-- Ojos del Android (negro) -->
+    <path
+        android:fillColor="#121212"
+        android:pathData="M80,88m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+
+    <path
+        android:fillColor="#121212"
+        android:pathData="M120,88m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+
+    <!-- Antenas de Android (púrpura) -->
+    <path
+        android:fillColor="#7B4EFB"
+        android:pathData="M70,60L62,44"
+        android:strokeWidth="6"
+        android:strokeColor="#7B4EFB"
+        android:strokeLineCap="round" />
+
+    <path
+        android:fillColor="#7B4EFB"
+        android:pathData="M130,60L138,44"
+        android:strokeWidth="6"
+        android:strokeColor="#7B4EFB"
+        android:strokeLineCap="round" />
+
+    <!-- Mando de juego (turquesa) - Forma mejorada más ergonómica -->
+    <path
+        android:fillColor="#03DAC6"
+        android:pathData="M100,112C52,112 40,112 40,112C32,112 24,120 24,132C24,144 32,152 40,152L64,152C76,160 88,160 100,160C112,160 124,160 136,152L160,152C168,152 176,144 176,132C176,120 168,112 160,112C160,112 148,112 100,112Z" />
+
+    <!-- Contorno del mando para dar profundidad -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M40,112C32,112 24,120 24,132C24,144 32,152 40,152L64,152C76,160 88,160 100,160C112,160 124,160 136,152L160,152C168,152 176,144 176,132C176,120 168,112 160,112"
+        android:strokeWidth="3"
+        android:strokeColor="#02C4B0"
+        android:strokeLineCap="round" />
+
+    <!-- Parte inferior del androide (púrpura) -->
+    <path
+        android:fillColor="#7B4EFB"
+        android:pathData="M100,160L100,160C88,160 80,164 80,172L120,172C120,164 112,160 100,160Z" />
+
+    <!-- D-pad (cruz direccional) - Lado izquierdo -->
+    <!-- Botón central -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M55,132m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+
+    <!-- Botón arriba -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M55,120m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+
+    <!-- Botón derecha -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M67,132m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+
+    <!-- Botón abajo -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M55,144m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+
+    <!-- Botón izquierda -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M43,132m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+
+    <!-- Botones de acción - Lado derecho (en formación de diamante) -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M145,120m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M157,132m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M145,144m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M133,132m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+
+    <!-- Botones centrales del mando -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M90,132m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M110,132m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+</vector>
