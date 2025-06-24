@@ -12,18 +12,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
-        <activity
-            android:name=".categories"
-            android:exported="false" />
+
+        <!-- Tu MainActivity, que es el punto de entrada principal de la app -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- La nueva Activity que contendrá tu CategoriesFragment -->
+        <activity
+            android:name=".CategoriesListActivity"
+            android:exported="false" />
+
+        <!-- NOTA: Se ha eliminado la declaración de la actividad ".categories"
+             ya que su funcionalidad ha sido reemplazada por CategoriesFragment
+             alojado en CategoriesListActivity.
+             Si tenías una 'InfoActivity' o similar, asegúrate de que también esté declarada aquí.
+        -->
+        <!-- Ejemplo si tienes una InfoActivity:
+        <activity
+            android:name=".InfoActivity"
+            android:exported="false" />
+        -->
+
     </application>
 
 </manifest>
